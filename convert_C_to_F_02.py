@@ -20,18 +20,18 @@ def main():
 def convertTemp():
     
     print('===== Temperature Converter =====')
-    print('\n 1. Convert from Celsius to Fahrenheit \n 2. Convert from Fahrenheit to Celsius')
+    print('\n 1. Convert from Celsius to Fahrenheit \n 2. Convert from Fahrenheit to Celsius\n')
     
-    option = int(input('\nPlease choose from the above menu: '))
+    option = int(input('Please choose from the above menu: '))
     temperature = float(input('Enter a temperature to convert: '))
     
     if option == 1:
         tempConverted = temperature * 9/5 + 32
-        print(f'{temperature} degrees Celsius is {tempConverted} degrees Fahrenheit.')
+        print(f'\n{temperature} degrees Celsius is {tempConverted} degrees Fahrenheit.')
 
     elif option == 2:
         tempConverted = (temperature - 32) * 5/9
-        print(f'{temperature} degrees Fahrenheit is {tempConverted} degrees Celsius.')
+        print(f'\n{temperature} degrees Fahrenheit is {tempConverted} degrees Celsius.')
 
 
 
