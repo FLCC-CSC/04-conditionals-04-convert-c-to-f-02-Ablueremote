@@ -29,7 +29,7 @@ def convertTemp():
         tempConverted = temperature * 9/5 + 32
         print(f'\n{temperature} degrees Celsius is {tempConverted} Fahrenheit.')
 
-    if option == 2:
+    elif option == 2:
         tempConverted = (temperature - 32) * 5/9
         print(f'\n{temperature} degrees Fahrenheit is {tempConverted} Celsius.')
 
