@@ -20,7 +20,7 @@ def main():
 def convertTemp():
     print('===== Temperature Converter =====')
     print('\n 1. Convert from Celsius to Fahrenheit \n 2. Convert from Fahrenheit to Celsius')
-    option = float(input('\nPlease choose from the above menu: '))
+    option = int(input('\nPlease choose from the above menu: '))
     temperature = float(input('Enter a temperature to convert: '))
     
     if option == 1:
