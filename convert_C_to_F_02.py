@@ -18,8 +18,10 @@ def main():
     convertTemp()
 
 def convertTemp():
+    
     print('===== Temperature Converter =====')
     print('\n 1. Convert from Celsius to Fahrenheit \n 2. Convert from Fahrenheit to Celsius')
+    
     option = int(input('\nPlease choose from the above menu: '))
     temperature = float(input('Enter a temperature to convert: '))
     
@@ -112,6 +114,11 @@ Enter a temperature to convert: -40
 I can choose between an elif statement or a else statement depending on how many outcomes I want to control. 
 
 
+
+
+
+
+'''
 
 
 
